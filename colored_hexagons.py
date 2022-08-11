@@ -1,3 +1,5 @@
+#https://copyassignment.com/colored-hexagons-turtle-design/
+
 import turtle
 from random import randint
 #x for the expected circle value 1
