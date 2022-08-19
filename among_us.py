@@ -6,7 +6,7 @@ color3 = 'skyblue'
 color4 = ''
 
 s = turtle.getscreen()
-t = turtle.Turtle()
+t = turtle.Turtle(
 
 def jiu():
     t.pensize(20)
