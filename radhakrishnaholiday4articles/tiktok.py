@@ -3,8 +3,8 @@ from turtle import * #importing the module
 width(20) # width of the pen
 bgcolor('black') #background of the GUI
 colors= ['#db0f3c', '#50ebe7','white'] #all colors stored in a list 
-pos = [(0,0), (-5,13), (-5,5)] # all coordinates stored in a list of tuples
-for (x,y),col in zip(pos,colors): # loop through the colors and tuples at the same time
+thaau = [(0,0), (-5,13), (-5,5)] # all coordinates stored in a list of tuples
+for (x,y),col in zip(thaau,colors): # loop through the colors and tuples at the same time
     up() 
     goto(x,y) # move the pen according to the current tuple in the loop 
     down()
