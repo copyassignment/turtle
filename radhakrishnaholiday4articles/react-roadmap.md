@@ -18,6 +18,9 @@ Hooks
         useRef
         useReducer
         useContext
+Context
+Refs
+Render Propss
 High Order Components
 Portals
 Error Boundaries
