@@ -8,12 +8,13 @@ round_coordA, round_coordB = 34, 90
 circleAx, circleAy = 80, 360
 circleBx, circleBy = 7, 360
 gotoAx, gotoAy = 85, 30
+gotoBx, gotoBy = 160, -100
 
 bgcolor(background_color) #background of the GUI
 pencolor(pen_color) #defining the color of the pen
 width(width_val) #defining the thickness of the pen
 penup() #start the draw
-goto(160,-100) #set the origin for the graphics
+goto(gotoBx, gotoBy) #set the origin for the graphics
 pendown() #stop the draw temporarily
 
 left(90) #turn at an angle 
