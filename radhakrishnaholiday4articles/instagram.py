@@ -8,7 +8,7 @@ def backFrame():
     screen = Screen()
     screen.tracer(False)
 
-    WIDTH, HEIGHT = screen.window_width(), screen.window_height()
+    WIDTH, HEIGHT = screen.window_width(), screen.window_height() #defining some useful variables
 
     deltas = [(hue - COLOR[index]) / HEIGHT for index, hue in enumerate(TARGET)]
 
@@ -21,6 +21,7 @@ def backFrame():
 
     direction = 1
 
+    #the gradient background
     for distance, y in enumerate(range(HEIGHT//2, -HEIGHT//2, -1)):
 
         turtle.forward(WIDTH * direction)
